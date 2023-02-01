@@ -1,0 +1,27 @@
+@media screen and (min-width: 768px) and (max-width: 1399px){
+    .textoAluraGeek{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 767px){
+    .textoAluraGeek{
+        font-size: 1rem;
+    }
+    .imgControl{
+        transform: scale(0.7);
+    }
+    input{
+        padding: 0.25rem 1.5rem;
+    }
+    #btnLogin{
+        padding: 0.25rem 0;
+    }
+    .inputBuscar{
+        padding: 0.5rem 0.9rem;
+    }
+    .containerBusqueda:hover .inputBuscar{
+        width: 140px;
+    }
+}
+    

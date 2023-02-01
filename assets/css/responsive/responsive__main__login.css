@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px) and (max-width: 1399px){
+    .divIniciarSesion{
+        width: 40%;
+    }
+    #btnEntrar{
+        width: 50%;
+        
+    }
+    #divBtnEntrar{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 767px){
+    .divIniciarSesion{
+        width: 80%;
+    }
+    #btnEntrar{
+        width: 50%;
+        
+    }
+    #divBtnEntrar{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+}
