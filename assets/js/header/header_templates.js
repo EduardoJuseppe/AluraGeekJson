@@ -1,20 +1,20 @@
 const containerBusqueda = document.querySelector(".containerBusqueda");
-const btnLogin = document.getElementById('btnLogin');
+
 
 const ocultarBoton = (e) =>{
-    if(screen.width <=460){
+    if(screen.width <=550){
         console.log('borrar');
-        const btnLogin = document.getElementById('btnLogin');
-        btnLogin.style.display = "none";
+        const btnAdmin = document.getElementById('btnAdmin');
+        btnAdmin.style.display = "none";
     }
 };
 
 const aparecerBoton = (e) =>{
-    if(screen.width <=460){
+    if(screen.width <=550){
         setTimeout(() => {
             console.log('aparecer');
-            const btnLogin = document.getElementById('btnLogin');
-            btnLogin.style.display = "block";
+            const btnAdmin = document.getElementById('btnAdmin');
+            btnAdmin.style.display = "block";
           }, "700")    
     }
 };

@@ -113,13 +113,20 @@ header{
     background: transparent;
     color: #2A7AE4;
 }
+#btnAdmin{
+    padding: 1rem 0;
+    width: 20vw;
+    border: 1px solid #2A7AE4;
+    background: transparent;
+    color: #2A7AE4;
+}
 .containerBusqueda:hover > #btnLogin{
     border: 1px solid black;
 
 }
-main{
+/* main{
     height: 40vh;
-}
+} */
 
 
 

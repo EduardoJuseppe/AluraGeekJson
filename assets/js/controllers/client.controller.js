@@ -46,8 +46,8 @@ const validarAdmin = (e) =>{
 const login = (email,password) =>{
     let  valor;
     clientServices.ListaClientes().then((data) => {
-        console.log(data[0].email);
-        console.log(data[0].password);
+        // console.log(data[0].email);
+        // console.log(data[0].password);
         if(data[0].email == email && data[0].password == password){
             window.location.href = "./iniciar_sesion.html";
         }

@@ -8,20 +8,6 @@
       
     ],
     "productos": [
-        {
-          "nombre": "kira",
-          "email": "urekmazino.ranking@gmail.com",
-          "id": "38dd398a-8c33-4e7b-b9e7-739dc60e0698"
-        },
-        {
-          "nombre": "atenea",
-          "email": "urekmazino.ranking@gmail.com",
-          "id": "38dd398a-8c33-4e7b-b9e7-739dc60e0698"
-        },
-        {
-          "nombre": "morty",
-          "email": "urekmazino.ranking@gmail.com",
-          "id": "38dd398a-8c33-4e7b-b9e7-739dc60e0698"
-        }
+        
       ]
   }

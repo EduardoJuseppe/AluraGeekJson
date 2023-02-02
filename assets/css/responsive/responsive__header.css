@@ -17,6 +17,9 @@
     #btnLogin{
         padding: 0.25rem 0;
     }
+    #btnAdmin{
+        width: 25vw;
+    }
     .inputBuscar{
         padding: 0.5rem 0.9rem;
     }

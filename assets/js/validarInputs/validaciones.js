@@ -40,7 +40,6 @@ const mensajesDeError = {
   },
   mensaje: {
     valueMissing: "El campo mensaje no puede estar vacío",
-    patternMismatch: "Debe contener máximo 300 caracteres",
   },
 };
 
