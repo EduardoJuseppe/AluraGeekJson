@@ -36,7 +36,7 @@
       "categoria": "Star Wars",
       "nombreProducto": "Clones",
       "precio": "22.22",
-      "descripcion": "Descripcion 1",
+      "descripcion": "Artesanía y detalles de alta calidad: Los fanáticos y coleccionistas de Star Wars pueden mostrar esta figura altamente articulada",
       "id": "09045445-0ec8-4998-9601-f81a7fb7ad5d"
     },
     {
@@ -110,14 +110,6 @@
       "precio": "22.22",
       "descripcion": "Descripcion 1",
       "id": "d2a87a94-f331-454f-ad90-a8bb35e92b2e"
-    },
-    {
-      "url": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2019/12/playstation-4-slim-dualshock.jpg?itok=hgKyt0Kl",
-      "categoria": "Consolas",
-      "nombreProducto": "PlayStation 4",
-      "precio": "222.22",
-      "descripcion": "Descripcion 1",
-      "id": "c39da53b-c6e5-4ebf-bcee-3ebf354fecae"
     },
     {
       "url": "https://www.techgames.com.mx/wp-content/uploads/2021/08/Xbox-Series-X-Halo-Infinite-Edicion-limitada-precio.jpg",
