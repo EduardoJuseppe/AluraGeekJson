@@ -23,5 +23,11 @@
     .inputBuscar{
         padding: 0.5rem 0.9rem;
     }
+    .labelProductoBusqueda{
+        font-size: 0.65rem;
+    }
+    .divHover{
+        padding: 0.25rem;
+    }
 }
     

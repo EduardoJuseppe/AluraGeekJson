@@ -27,6 +27,12 @@ const detalleCliente = (id) => {
   );
 };
 
+const buscarProducto = (palabra) => {
+  return fetch(`http://localhost:3000/productos?nombreProducto_like=${palabra}`).then((respuesta) =>
+    respuesta.json()
+  );
+};
+
 const actualizarCliente = (url,categoria,nombreProducto,precio,descripcion,id) => {
   return fetch(`http://localhost:3000/productos/${id}`,{
     method: "PUT",
@@ -46,4 +52,5 @@ export const clientServices ={
     eliminarCliente,
     detalleCliente,
     actualizarCliente,
+    buscarProducto,
 };

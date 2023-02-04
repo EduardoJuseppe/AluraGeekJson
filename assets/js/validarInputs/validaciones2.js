@@ -49,11 +49,11 @@ export function valida(input) {
     },
     mensaje: {
       valueMissing: "El mensaje no puede estar vacio",
-      customError: "El maximo de caracteres es de 300",
+      customError: "El maximo de caracteres es de 120",
     },
     descripcion: {
       valueMissing: "La descripcion no puede estar vacia",
-      customError: "El maximo de caracteres es de 300",
+      customError: "El maximo de caracteres es de 150",
     },
     
   };
@@ -71,18 +71,26 @@ function mostrarMensajeDeError(tipoDeInput, input) {
   return mensaje;
 }
 
-const validarTextArea = (input) =>{
+const validarDescripcion = (input) =>{
   let mensaje = '';
   // console.log(input.value.length);
-  if(input.value.length >300){
-    mensaje = "El maximo de caracteres es de 300";
+  if(input.value.length >150){
+    mensaje = "Maximo de caracteres alcanzado";
+  }
+  input.setCustomValidity(mensaje);
+};
+const validarMensaje = (input) =>{
+  let mensaje = '';
+  // console.log(input.value.length);
+  if(input.value.length >120){
+    mensaje = "Maximo de caracteres alcanzado";
   }
   input.setCustomValidity(mensaje);
 };
 
 const validadores = {
-  descripcion: (input) => validarTextArea(input),
-  mensaje: (input) => validarTextArea(input),
+  descripcion: (input) => validarDescripcion(input),
+  mensaje: (input) => validarMensaje(input),
 };
 
 

@@ -38,19 +38,19 @@ main{
     padding: 1rem 0;
 }
 
-#containerProductos{
+.containerProductos{
     width: 85%;
     height: 90%;
     margin: 0 auto;
 }
 
-#divTituloBtnAgregar{
+.divTituloBtnAgregar{
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 1rem 0;
 }
-#labelProductos{
+.labelProductos{
     font-family: 'Raleway', sans-serif;
     font-size: 2.25rem;
 }

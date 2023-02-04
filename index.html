@@ -29,6 +29,9 @@
                     <div class="btn">
                         <i class="fa fa-search"></i>
                     </div>
+                    <div id='divBusquedas' class="contenidoBusqueda busquedaNone">
+                        
+                    </div>
                 </div>              
                 <button id="btnLogin">Login</button>
             </div>      
@@ -40,13 +43,13 @@
             <div class="contenidoBanner">
                 <label id="tituloBanner">Febrero Promocional</label>
                 <label id="labelBanner">Productos seleccionados con 33% de descuento</label>
-                <button id="btnVerConsolas">Ver Consolas</button>
+                <a href="#consolas"><button id="btnVerConsolas">Ver Consolas</button></a>
             </div>
             <img class="imgBanner" src="/assets/img/Banner.png"/>   
         </div>
-        <div id="containerProductos">
-            <div id="divTituloBtnAgregar">
-                <label id="labelProductos">Star Wars</label>
+        <div class="containerProductos">
+            <div class="divTituloBtnAgregar">
+                <label class="labelProductos">Star Wars</label>
                 <div class="divVerTodoFlecha">
                     <label class="labelVerTodo" id="verTodoStarWars">Ver todo</label>
                     <i class="fa-solid fa-arrow-right" id="flechaStarWars"></i>
@@ -58,9 +61,9 @@
                 
             </div>
         </div>
-        <div id="containerProductos">
-            <div id="divTituloBtnAgregar">
-                <label id="labelProductos">Consolas</label>
+        <div class="containerProductos">
+            <div class="divTituloBtnAgregar">
+                <label class="labelProductos">Consolas</label>
                 <div class="divVerTodoFlecha">
                     <label class="labelVerTodo" id="verTodoConsolas">Ver todo</label>
                     <i class="fa-solid fa-arrow-right" id="flechaConsolas"></i>
@@ -72,9 +75,9 @@
                 
             </div>
         </div>
-        <div id="containerProductos">
-            <div id="divTituloBtnAgregar">
-                <label id="labelProductos">Diversos</label>
+        <div class="containerProductos">
+            <div class="divTituloBtnAgregar">
+                <label class="labelProductos">Diversos</label>
                 <div class="divVerTodoFlecha">
                     <label class="labelVerTodo" id="verTodoDiversos">Ver todo</label>
                     <i class="fa-solid fa-arrow-right" id="flechaDiversos"></i>
@@ -111,7 +114,7 @@
                     <form action="assets/templates/registro_concluido.html" id="form" class="form">
                         <label>Habla con nosotros</label>
                         <div class="input-container">
-                            <input name="name" id="inputNombre" class="input" type="text" placeholder="Asunto" required pattern="[\s\S]{0,50}" data-tipo="nombre">
+                            <input name="name" id="inputNombre" class="input" type="text" placeholder="Asunto" required pattern="[\s\S]{0,40}" data-tipo="nombre">
                             <label class="input-label" for="name">Nombre</label>
                             <span class="input-message-error">Este campo no es valido</span>
                         </div>
@@ -136,5 +139,6 @@
     <script type="module" src="assets/js/validarInputs/app2.js"></script>
     <script src="assets/js/btn/btnLogin.js"></script>
     <script type="module" src="assets/js/controllers/index.controller.js"></script>
+    <script type="module" src="assets/js/controllers/busqueda.controller.js"></script>
 </body>
 </html>

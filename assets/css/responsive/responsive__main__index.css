@@ -52,7 +52,7 @@
     #labelProductos{
         font-size: 1.35rem;
     }
-    #divTituloBtnAgregar{
+    .divTituloBtnAgregar{
         flex-direction: column;
         gap: 1rem;
     }
