@@ -1,4 +1,4 @@
-const containerBusqueda = document.querySelector(".containerBusqueda");
+const btn = document.querySelector(".btn");
 
 
 const ocultarBoton = (e) =>{
@@ -32,6 +32,20 @@ const calcularAlturas = () =>{
     document.documentElement.style.setProperty('--alturaHeaderFooter', alturaHeaderFooter + "px");
 }
 
+const calcularNav = () =>{
+    const style = document.documentElement.style
+
+    let container = document.getElementById('containerBusqueda');
+
+    let largoContainer = container.clientWidth;
+    largoContainer = largoContainer*0.8;
+
+    // console.log(largoContainer);
+
+    document.documentElement.style.setProperty('--largoNav', largoContainer + "px");
+}
+
+calcularNav();
 calcularAlturas();
-containerBusqueda.addEventListener('mouseenter',ocultarBoton);
-containerBusqueda.addEventListener('mouseout',aparecerBoton);
+// btn.addEventListener('mouseenter',ocultarBoton);
+// btn.addEventListener('mouseout',aparecerBoton);

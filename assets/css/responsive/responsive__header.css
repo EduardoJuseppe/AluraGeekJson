@@ -23,8 +23,5 @@
     .inputBuscar{
         padding: 0.5rem 0.9rem;
     }
-    .containerBusqueda:hover .inputBuscar{
-        width: 140px;
-    }
 }
     
