@@ -31,10 +31,6 @@ inputBuscar.addEventListener('keyup', (event) => {
         divBusquedas.innerHTML = '';
         data.forEach(({ nombreProducto,id}) => {
           crearElementos(nombreProducto,id);
-          // console.log(id);
-          // console.log(url);
-          // console.log(nombreProducto);
-          // console.log('\n\n');
         });
       }).catch((error) => console.log("Ocurrió un error"));
 },false);

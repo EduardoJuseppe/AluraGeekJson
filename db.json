@@ -48,14 +48,6 @@
       "id": "5ba93bab-9caa-473c-a0fe-8451a6a69811"
     },
     {
-      "url": "https://estaticos-cdn.elperiodico.com/clip/6ab0bc3e-09ea-47ca-8240-8fddd9668310_alta-libre-aspect-ratio_default_0.jpg",
-      "categoria": "Star Wars",
-      "nombreProducto": "Darth Vader",
-      "precio": "2222.22",
-      "descripcion": "Descripcion 1",
-      "id": "7be21159-3cde-4cbc-9438-222be970aae3"
-    },
-    {
       "url": "https://i.pinimg.com/564x/bd/94/5b/bd945b4aa35d8c774e2492942d7607e1.jpg",
       "categoria": "Star Wars",
       "nombreProducto": "Estrella de la muerte",
@@ -198,6 +190,14 @@
       "precio": "6666.66",
       "descripcion": "Descripcion 1",
       "id": "d8fde3ad-58c9-477f-a00c-fd29f5aecb42"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1622737133809-d95047b9e673?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2FsbHBhcGVyJTIwNGt8ZW58MHx8MHx8&w=1000&q=80",
+      "categoria": "Diversos",
+      "nombreProducto": "Cubos",
+      "precio": "444.44",
+      "descripcion": "Cubos magicos",
+      "id": "94c843fd-543d-4715-820d-568cfeaad988"
     }
   ]
 }
