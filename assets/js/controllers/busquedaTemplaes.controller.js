@@ -13,7 +13,7 @@ const crearElementos = (nombreProducto,id) =>{
   divHover.appendChild(labelProductoBusqueda);
   divBusquedas.appendChild(divHover);
   labelProductoBusqueda.addEventListener('click',()=>{
-    window.location.href = `assets/templates/producto__individual.html?id=${id}`;
+    window.location.href = `../templates/producto__individual.html?id=${id}`;
   });
 }
 
@@ -37,6 +37,5 @@ inputBuscar.addEventListener('keyup', (event) => {
         });
       }).catch((error) => console.log("Ocurrió un error"));
 },false);
-
 
 
