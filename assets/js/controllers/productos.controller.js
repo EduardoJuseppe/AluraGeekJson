@@ -62,17 +62,23 @@ const crearCard = (url,nombreProducto,precio,id) =>{
     </div> 
 */
 
-
-
 clientServices.ListaProductos().then((data) => {
     data.forEach(({ url,nombreProducto,precio,id }) => {
-      const divProductos = document.getElementById('divProductos');
-      const card = crearCard(url,nombreProducto,precio,id);
+    const divProductos = document.getElementById('divProductos');
+    const card = crearCard(url,nombreProducto,precio,id);
     //   console.log(card);
-      divProductos.appendChild(card);
+    divProductos.appendChild(card);
     });
-  })
-  .catch((error) => alert("Ocurrió un error"));
+})
+.catch((error) => alert("Ocurrió un error"));
 
-//   console.log(url + "\n" + categoria + "\n" +nombreProducto + "\n" +precio + "\n" +descripcion + "\n\n\n\n" );
+const bthDesconectar = document.getElementById('btnLogin');
+
+const desconectar = () =>{
+    localStorage.removeItem('admin');
+    window.location.href = "../../index.html";
+};
+
+bthDesconectar.addEventListener('click',desconectar);
+
 

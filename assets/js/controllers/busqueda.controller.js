@@ -17,6 +17,18 @@ const crearElementos = (nombreProducto,id) =>{
   });
 }
 
+inputBuscar.addEventListener('focus',(event) => {
+  if(inputBuscar.value.length > 0){
+    divBusquedas.classList.remove('busquedaNone');
+    divBusquedas.classList.add('busquedaFlex');
+  }
+});
+
+inputBuscar.addEventListener('blur',(event) => {
+  divBusquedas.classList.remove('busquedaFlex');
+  divBusquedas.classList.add('busquedaNone');
+});
+
 inputBuscar.addEventListener('keyup', (event) => {
     event.preventDefault();
     if(inputBuscar.value.length > 0){
